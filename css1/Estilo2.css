@@ -29,7 +29,7 @@ section#hero{
     flex-direction: column;
     height: 100vh;
     background: linear-gradient(180deg, rgb(181, 198, 247), rgb(241, 189, 239));
-    margin: 00px 80px 00px 80px;
+    margin: auto;
     max-width: 100%;
 }
 
