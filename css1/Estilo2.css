@@ -70,23 +70,23 @@ h3{
 
 section#datos h3{
     color: #99729b;
-    border: 2px solid rgb(139, 113, 146)
+    border: 2px solid rgb(139, 113, 146);
 }
 
 
 section#formación h3{
     color: rgb(100, 107, 168);
-    border: 2px solid rgb(125, 120, 201)
+    border: 2px solid rgb(125, 120, 201);
 }
 
 section#perfil h3{
     color: rgb(108, 204, 199);
-    border: 2px solid rgb(107, 160, 160)
+    border: 2px solid rgb(107, 160, 160);
 }
 
 section#experiencia h3{
     color: rgb(62, 122, 80);
-    border: 2px solid rgb(68, 134, 68)
+    border: 2px solid rgb(68, 134, 68);
 }
 
 
