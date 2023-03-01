@@ -36,8 +36,8 @@ section#hero{
 section#hero h1{
     display: flex;
     font-family: "Roboto";
-    font-weight: 500;
-    font-size: 125px;
+    font-weight: 480;
+    font-size: 100px;
     text-align: center;
     margin:auto;
 }
