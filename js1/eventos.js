@@ -1,6 +1,6 @@
 function enAmarillo3() {
     Element =document.getElementById("perf");
-    Element.src="img1/pesonal2.png";
+    Element.src="img1/personal2.png";
     }
     function enNegro3() {
         Element =document.getElementById("perf");
