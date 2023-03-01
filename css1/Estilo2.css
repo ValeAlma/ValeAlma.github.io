@@ -28,26 +28,19 @@ section#hero{
     display: flex;
     flex-direction: column;
     height: 100vh;
+     font-family: "Roboto";
+    text-align: center;
     margin: auto;
-    max-width: 100%;
 }
 
 section#hero h1{
-    display: flex;
-    font-family: "Roboto";
     font-weight: 480;
     font-size: 115px;
-    text-align: center;
-    margin:auto;
 }
 
 section#hero h2{
-    display: flex;
-    font-family: "Roboto";
     font-weight: 450;
     font-size: 85px;
-    text-align: center;
-    margin:auto;
 }
 
 .container {
