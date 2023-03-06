@@ -119,8 +119,8 @@ section#experiencia h4{
 
   
 footer{ 
+    background-color: rgb(124, 185, 187);
     color: rgb(12, 38, 78);
-     background-color: rgb(124, 185, 187);
     flex-direction: column;
     justify-content: center;
     text-align: center;
