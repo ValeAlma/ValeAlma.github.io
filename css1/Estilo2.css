@@ -13,7 +13,7 @@ html{
 }
 
 body {
-    background: linear-gradient(180deg, rgb(181, 198, 247), rgb(236, 203, 212));
+    background: linear-gradient(180deg, rgb(181, 198, 247), rgb(211, 197, 201));
     font-family: open, sans-serif;
     margin: 0;
 }
@@ -32,7 +32,7 @@ a{
 header{
     display: flex;
     min-height: 50px;
-    background-color: rgb(191, 199, 199);
+    background-color: rgb(212, 212, 212);
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -151,7 +151,7 @@ section#experiencia h4{
 
   
 footer{ 
-    background-color: rgb(124, 185, 187);
+    background-color: rgb(130, 172, 173);
     color: rgb(12, 38, 78);
     flex-direction: column;
     justify-content: center;
