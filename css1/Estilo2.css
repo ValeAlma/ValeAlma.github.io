@@ -32,7 +32,7 @@ a{
 header{
     display: flex;
     min-height: 42px;
-    background: linear-gradient(90deg, rgb(11, 61, 95), rgb(174, 192, 247));
+    background: linear-gradient(90deg, rgb(11, 61, 95), rgb(181, 198, 247));
     justify-content: space-between;
     align-items: center;
     padding: 5px;
