@@ -24,6 +24,36 @@ body {
     bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+
+header{
+    display: flex;
+    min-height: 60px;
+    background-color: rgb(191, 199, 199);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+@media (max-width:700px){
+    header{
+       flex-direction: column;
+    }
+}
+
 section#hero{
     display: flex;
     flex-direction: column;
@@ -90,16 +120,17 @@ section#experiencia h3{
     border: 2px solid rgb(68, 134, 68);
 }
 
-
-
-section#experiencia h4{
-    color: rgb(5, 80, 30);
+h4{
     font-family: "Roboto";
     font-weight: 400;
     font-size: 50px;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+section#experiencia h4{
+    color: rgb(5, 80, 30);
     margin-top: 70px;
     margin-bottom: 50px;
 }
@@ -117,6 +148,7 @@ section#experiencia h4{
     margin-bottom: 100px;
 }
 
+  
 footer{ 
     background-color: rgb(124, 185, 187);
     color: rgb(12, 38, 78);
