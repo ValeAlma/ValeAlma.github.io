@@ -26,13 +26,13 @@ body {
 
 a{
     text-decoration: none;
-    color: rgb(53, 53, 56);
+    color: rgb(247, 247, 247);
 }
 
 header{
     display: flex;
     min-height: 42px;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(11, 61, 95);
     justify-content: space-between;
     align-items: center;
     padding: 5px;
