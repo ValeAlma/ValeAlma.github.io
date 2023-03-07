@@ -31,11 +31,11 @@ a{
 
 header{
     display: flex;
-    min-height: 60px;
+    min-height: 70px;
     background-color: rgb(191, 199, 199);
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .logo{
