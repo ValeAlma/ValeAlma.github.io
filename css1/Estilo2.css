@@ -176,7 +176,7 @@ footer{
 
 .foot .form .f-etiqueta{
     display: block;
-    color: rgb(65, 64, 85);
+    color: rgb(247, 229, 255);
     font-size: 16px;
     font-family: "Roboto";
     position: relative;
@@ -192,7 +192,7 @@ footer{
     margin-bottom: 20px;
     border-radius: 2px;
     font-size: 14x;
-    color: rgb(49, 28, 58);
+    color: rgb(247, 229, 255);
     font-family: "Roboto";
 }
 
@@ -216,5 +216,5 @@ footer{
 }
 
 .foot .form .boton-enviar:hover {
-    background: rgb(241, 202, 157);
+    background: rgb(245, 189, 126);
 }
