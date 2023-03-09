@@ -89,29 +89,20 @@
     </main>
     
     <footer>
-        <div>
-            <h3>Deje Su Consulta:</h3>
-        </div>
-        <hr>
-        <div>
-            <form>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Escriba su nombre">
-                </div>
-                <div>
-                    <label>Asunto</label>
-                    <input type="text" placeholder="Escriba el asunto">
-                </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                </div>
-                <div>
-                    <button>Enviar</button>
-                </div>
-            </form>
-        </div>
+            <div class="foot">
+                <form action="" class="form">
+                    <div class="formulario">
+                        <h1 class="f-titulo">Deje su consulta</h1>
+                    </div>
+                    <label for="nombre" class="f-etiqueta">Nombre</label>
+                    <input type="text" id="nombre" class="f-input" placeholder="Escriba su nombre">
+                    <label for="mail" class="f-etiqueta">Mail</label>
+                    <input type="text" id="mail" class="f-input" placeholder="Escriba su mail">
+                    <label for="mensaje" class="f-etiqueta">Mensaje</label>
+                    <textarea id="mensaje" class="f-input" placeholder="Escriba su mensaje"></textarea>
+                    <input type="submit" class="boton-enviar" value="Enviar Consulta">
+                </form>
+            </div>
     </footer>
 </body>
 </html>
