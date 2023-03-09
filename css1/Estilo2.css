@@ -148,13 +148,73 @@ section#experiencia h4{
     margin-top: 70px;
     margin-bottom: 100px;
 }
-
-  
+ 
 footer{ 
     background-color: rgb(147, 183, 184);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.foot .form .formulario .f-titulo{
+    font-weight: normal;
+    font-family: sans-serif;
     color: rgb(65, 64, 85);
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    margin: 10px 25px 120px 25px;
+    padding: 14px 0;
+}
+
+.foot .form{
+    background: rgba(112, 139, 139,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.foot .form .f-etiqueta{
+    display: block;
+    color: rgb(65, 64, 85);
+    font-size: 16px;
+    font-family: "Roboto";
+    position: relative;
+}
+
+.foor .form .f-input, .f-input{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(65, 64, 85);
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14x;
+    color: rgb(49, 28, 58);
+    font-family: "Roboto";
+}
+
+.foor .form .f-input{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.foot .form .boton-enviar{
+    width: 100%;
+    font-family: "Roboto";
+    outline: none;
+    background-color: rgb(231, 218, 202);
+    font-size: 16px;
+    border: none;
+    color: rgb(65, 64, 85);
+    padding: 15px 0px;
+    cursor: pointer;
+    transition: all 5s ease;
+}
+
+.foot .form .boton-enviar:hover {
+    background: rgb(241, 202, 157);
 }
